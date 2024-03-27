@@ -1,0 +1,6 @@
+# Default ignored files
+workspace.xml
+main.py
+classificadorEigen.yml
+classificadorFisher.yml
+classificadorLBPH.yml
