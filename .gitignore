@@ -1,6 +1,8 @@
 # Default ignored files
 workspace.xml
-main.py
 classificadorEigen.yml
 classificadorFisher.yml
 classificadorLBPH.yml
+captura.py
+treinamento.py
+reconhecedor_eigenfaces.py
