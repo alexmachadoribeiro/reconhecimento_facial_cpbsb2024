@@ -3,7 +3,7 @@ import cv2
 import os
 import numpy as np
 
-# função captura
+# ANCHOR: função captura
 def captura(largura, altura):
     # classificadores
     classificador = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -66,7 +66,7 @@ def captura(largura, altura):
     cv2.destroyAllWindows()
     # fim de função
 
-# função que lê as fotos salvas no diretório durante a captura e guarda os dados em lista
+# ANCHOR: função que lê as fotos salvas no diretório durante a captura e guarda os dados em lista
 def get_imagem_com_id():
     caminhos =[os.path.join('fotos', f) for f in os.listdir('fotos')]
     faces = []
@@ -81,7 +81,7 @@ def get_imagem_com_id():
     # retorno da função
     return np.array(ids), faces
 
-# função de treinamento
+# ANCHOR: função de treinamento
 def treinamento():
     # cria os elementos de reconhecimento necessários
     eigenface = cv2.face.EigenFaceRecognizer_create()
@@ -106,7 +106,7 @@ def treinamento():
     print('Treinamento realizado.')
     # fim de função
 
-# função de reconhecimento facial
+# ANCHOR: função de reconhecimento facial
 def reconhecedor_eigenfaces(largura, altura):
     # detecta as faces
     detector_face = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -140,6 +140,7 @@ def reconhecedor_eigenfaces(largura, altura):
     cv2.destroyAllWindows()
     # fim de função
 
+# ANCHOR: programa principal
 if __name__ == '__main__':
     # define o tamanho da camera
     largura = 220

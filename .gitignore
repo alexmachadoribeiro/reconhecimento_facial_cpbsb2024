@@ -6,3 +6,4 @@ classificadorLBPH.yml
 captura.py
 treinamento.py
 reconhecedor_eigenfaces.py
+fotos/
