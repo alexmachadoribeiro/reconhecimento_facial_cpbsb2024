@@ -1,10 +1,10 @@
-## Sistema de Reconhecimento Facial da CPBSB6
+# Sistema de Reconhecimento Facial da CPBSB6
 
 Este é um sistema de Reconhecimento Facial por IA desenvolvido exclusivamente para apresentação no stand do SENAI DF na Campus Party Brasília, ocorrida no ano de 2024.
 
 O objetivo da apresentação do sistema é exibir uma amostra do que será produzido no Curso de Desenvolvedor de IA. O curso, que possui um total de 400 horas de duração, fará sua estréia no SENAI DF no ano de 2024, e este será um dos vários sistemas que serão desenvolvidos pelos alunos neste curso.
 
-#### Como funciona o sistema?
+## Como funciona o sistema?
 
 Inicialmente composto por 3 algoritmos feitos na linguagem Python, o sistema foi unificado para apenas um único algoritmo Python, para facilitar a execução da demonstração do sistema.
 
@@ -22,7 +22,7 @@ Obs: para que a opção de reconhecimento facial funcione, é necessário a capt
 
 Caso o usuário escolha a opção de Fazer reconhecimento facial, o programa irá abrir novamente a tela da câmera, mas desta vez, ele irá fazer um breve treinamento do software, o que pode demorar alguns segundos, e em seguida, ele irá reconhecer a face do usuário e realizar a leitura dos dados que ficaram gravados durante a primeira etapa da execução de software.
 
-#### Outras observações
+## Outras observações
 
 O sistema se encontra atualmente incompleto. Porém, realizou com sucesso sua tarefa: detectar faces e ser apresentável na Campus Party, sendo um sucesso absoluto.
 
